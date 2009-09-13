@@ -1,0 +1,13 @@
+Changes
+lib/EDF/Reader.pm
+Makefile.PL
+MANIFEST
+README
+t/00-load.t
+t/01files.t
+t/boilerplate.t
+t/pod-coverage.t
+t/pod.t
+t/testfiles/events.txt
+t/testfiles/groups.txt
+todo

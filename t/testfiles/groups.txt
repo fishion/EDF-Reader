@@ -1,0 +1,39 @@
+##########################
+#
+# name : 
+# desc : 
+# url : 
+# email : 
+# phone :
+# 
+#
+# The FILEDEF line defines the fields in the data below.
+# Don't remove/edit it unless you know what you're doing.
+#
+#####################################
+# FILEDEF
+# name REQUIRED
+# desc REQUIRED
+# categories REQUIRED
+# url
+# email
+# phone  
+# image
+#####################################
+
+name : Got it all co
+desc : Got all fields filled in
+some with multi-line descriptions
+categories : blah, and, stuff    
+url :  http://some.url.com
+email : anemail@adomain.com
+phone : (01273) 123456
+       
+name : Confusing company describing confusing things
+desc : Name mentions desc already
+categories: sports
+what if the desc also has url, email and phote words?
+ url :  What if the url has ' email : ' in it?
+email : anemail@adomain.com
+phone : (01273) 123456
+  

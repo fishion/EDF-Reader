@@ -1,0 +1,58 @@
+##########################
+#
+# date : yyyy/mm/dd
+# name : The name of the event
+# desc : A description of the event.
+# The description can be on multiple lines to indicate a new paragraph.
+# But the next event entry must be separated by at least one empty line
+#
+# The FILEDEF line defines the fields in the data below.
+# Don't remove/edit it unless you know what you're doing.
+#
+##########################
+# FILEDEF
+# date REQUIRED
+# name REQUIRED
+# desc
+##########################
+
+date : 2008/05/03
+name : The name of the event1
+desc : A description of the event1.
+       The description can be on multiple lines to indicate a new paragraph.
+       But the next event entry must be separated by at least one empty line.
+
+
+name : The order of the elements can change too
+       is on 2 lines
+date : 2008/03/14
+desc : A description of the event2.
+The description can be on multiple lines to indicate a new paragraph.
+But the next event entry must be separated by at least one empty line.
+
+some random words here should not be used
+
+
+date: 2008/05/05
+name: blah
+desc: a desc
+
+date: 2008/05/05
+desc: malformed as no name
+
+some random words here should not be used
+
+
+date : 2008/01/01
+desc : This won't work
+
+date : 2008/01/01
+name : This should work
+
+date : Not this
+
+This is random text, but the next empty block won't work as it has all the keys
+
+date:
+name:
+desc:

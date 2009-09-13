@@ -1,0 +1,9 @@
+Revision history for EDF-Reader
+
+0.01    May 2008
+        First version, released on an unsuspecting world.
+
+0.02    30/09/2008
+        Rework format to allow better data definition
+          - can now define elements as REQUIRED (or not)
+          - unrequired elements do not need to be defined for each datapoint

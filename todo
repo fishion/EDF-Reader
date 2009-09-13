@@ -1,0 +1,6 @@
+Ideas for version 0.03
+----------------------
+allow comments in data?
+  - strip them out on reading
+
+perhaps refactor further to use the regexp method. It's probably OK to make the order of the fields important, but to allow non-required fields to be missing.
