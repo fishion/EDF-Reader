@@ -9,6 +9,10 @@ use Data::Dumper;
 
 EDF::Reader - Read 'Easy Data File's
 
+=head1 DESCRIPTION
+
+Read 'Easy Data Files'. A (non technical) human readable textuak data format for small amounts of data storage in plain text files
+
 =head1 VERSION
 
 Version 0.01
